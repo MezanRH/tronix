@@ -1,0 +1,26 @@
+.slick-dots ul .slick-active{
+  position: relative;
+ 
+}
+.slick-dots ul li{
+ cursor: pointer;
+ 
+}
+.slick-dots ul .slick-active::after {
+   content: "";
+   position: absolute;
+   height: 15px;
+   width: 25px;
+   bottom: 26px;
+   left: 0px;
+   background: #F46B5B;
+   border-radius: 10px;    
+}
+
+
+@media (min-width: 320px) and (max-width: 575.99px) {
+ .slick-dots ul .slick-active::after {
+   bottom: 28px; 
+} 
+
+}
